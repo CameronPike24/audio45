@@ -41,6 +41,7 @@ version = 0.1
 #requirements = python3,kivy,camera4kivy,gestures4kivy,numpy,tflite-runtime,kivymd,requests,urllib3,chardet,idna,kivy_garden.graph,audiostream
 requirements = python3==3.9.12,kivy,camera4kivy,gestures4kivy,numpy,tflite-runtime,kivymd,requests,urllib3,chardet,idna,kivy_garden.graph,audiostream,hostpython3==3.9.12,scipy,pillow
 
+
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
@@ -115,8 +116,8 @@ android.api = 32
 #android.ndk = 19b
 ####This is for scipy. Set it to android.ndk = 19c then do a build. It will fail then comment out and run build again
 #android.ndk = 19c
-android.LEGACY_NDK = r21e
-android.NDK_DIRECTORY = .
+#android.ndk = r21e
+#android.ndk_path = /home/ahmedgad/.buildozer/android/platform/android-ndk-r18b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
