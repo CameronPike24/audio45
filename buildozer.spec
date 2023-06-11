@@ -113,6 +113,8 @@ android.api = 32
 
 # (str) Android NDK version to use
 #android.ndk = 19b
+####This is for scipy. Set it to android.ndk = 19c then do a build. It will fail then comment out and run build again
+android.ndk = 19c
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
