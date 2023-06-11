@@ -115,6 +115,8 @@ android.api = 32
 #android.ndk = 19b
 ####This is for scipy. Set it to android.ndk = 19c then do a build. It will fail then comment out and run build again
 #android.ndk = 19c
+android.LEGACY_NDK = r21e
+android.NDK_DIRECTORY = .
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
@@ -133,7 +135,7 @@ android.api = 32
 
 # (bool) If True, then skip trying to update the Android sdk
 # This can be useful to avoid excess Internet downloads or save time
-# when an update is due and you just want to test/build your package
+# when an update is due and you just want to test/build your packageANDROIDAPI
 # android.skip_update = False
 
 # (bool) If True, then automatically accept SDK license
